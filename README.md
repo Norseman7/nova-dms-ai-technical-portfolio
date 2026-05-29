@@ -6,9 +6,9 @@ This repository is a curated, sanitized evidence package supporting an AI Soluti
 
 ## What This Repository Is
 
-- A GitHub-ready evidence folder for review.
-- A companion to the technical portfolio PDF in `portfolio/`.
-- A curated set of Markdown evidence files and one final portfolio PDF.
+- A GitHub-ready evidence folder for technical review.
+- A public, company-neutral companion evidence package to a separately submitted technical portfolio.
+- A curated set of Markdown evidence files and selected sanitized screenshots.
 - A navigation aid for technical reviewers, hiring stakeholders, interviewers, and AI-assisted screening tools.
 
 ## What This Repository Is Not
@@ -20,9 +20,9 @@ This repository is a curated, sanitized evidence package supporting an AI Soluti
 - It is not a commercial trading bot or autonomous decision system.
 - It does not publish raw market data, runtime logs, credentials, local caches, or protected implementation material.
 
-## Relationship To The Technical Portfolio PDF
+## Relationship To The Technical Portfolio
 
-The final PDF in `portfolio/` is the primary narrative artifact. The surrounding folders provide supporting evidence in a reviewer-friendly structure: architecture notes, capability mapping, validation/traceability models, governance examples, and sanitized workflow examples.
+The application-specific technical portfolio PDF is submitted separately when relevant. This public repository contains sanitized supporting evidence in a reviewer-friendly structure: architecture notes, capability mapping, validation/traceability models, governance examples, selected screenshots, and sanitized workflow examples.
 
 ## NOVA Summary
 
@@ -48,18 +48,18 @@ The evidence emphasizes traceability from AI-supported conclusions back through 
 
 ## Maturity, Limitations, And Non-Claims
 
-This repository intentionally uses conservative language. NOVA is under active development. DMS is reusable governance/support tooling, not an enterprise-certified platform. The Figma workflow is supporting tooling, not a separate main product equal to NOVA. The repository excludes sensitive/noisy material and should be manually reviewed before publication.
+This repository intentionally uses conservative language. NOVA is under active development. DMS is reusable governance/support tooling, not an enterprise-certified platform. The Figma workflow is supporting tooling, not a separate main product equal to NOVA. The repository excludes sensitive/noisy material and should be treated as sanitized portfolio evidence rather than a complete working system.
 
 ## How To Navigate
 
 1. Start with `PROJECT_EVIDENCE_INDEX.md`.
-2. Read the final portfolio PDF in `portfolio/`.
-3. Review capability and role alignment in `docs/capability_and_role_alignment/`.
-4. Review architecture, complexity, and production-readiness evidence in `docs/production_readiness/` and `nova/`.
-5. Review validation and traceability in `docs/traceability_and_validation/` and `examples/`.
-6. Review DMS governance in `dms/`.
-7. Review design workflow evidence in `figma_plugin/`.
+2. Review capability and role alignment in `docs/capability_and_role_alignment/`.
+3. Review architecture, complexity, and production-readiness evidence in `docs/production_readiness/` and `nova/`.
+4. Review validation and traceability in `docs/traceability_and_validation/` and `examples/`.
+5. Review DMS governance in `dms/`.
+6. Review design workflow evidence in `figma_plugin/`.
+7. Review selected sanitized screenshots in `portfolio/screenshots/`.
 
 ## Contact / Access Note
 
-Additional private walkthroughs, source-code discussion, screenshots, or implementation context can be provided during interview if appropriate. They are intentionally excluded from this public/sanitized evidence package.
+Additional private walkthroughs, source-code discussion, or implementation context can be provided during interview if appropriate. Only selected sanitized screenshots are included in this public evidence package.
